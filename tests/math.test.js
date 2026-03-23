@@ -4,7 +4,7 @@ const { add, subtract, multiply } = require("../src/math");
 let passed = 0;
 let failed = 0;
 
-function test(description, fn) {
+// function test(description, fn) {
   try {
     fn();
     console.log(`  ✅ ${description}`);

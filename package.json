@@ -1,0 +1,17 @@
+{
+  "name": "my-cicd-node-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app for learning GitHub Actions CI/CD",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node tests/math.test.js",
+    "lint": "echo 'Linting... (add eslint here later)' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
